@@ -12,3 +12,4 @@ This image contains below tools:
 - netstat
 - nano
 - nmap
+- ping
