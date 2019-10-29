@@ -13,5 +13,6 @@ RUN apt-get update && apt-get install -y telnet
 RUN apt-get update && apt-get install -y net-tools
 RUN apt-get update && apt-get install -y nano
 RUN apt-get update && apt-get install -y nmap
+RUN apt-get update && apt-get install -y iputils-ping
 
 CMD ['/bin/bash /bin/cat']
