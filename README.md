@@ -13,3 +13,4 @@ This image contains below tools:
 - nano
 - nmap
 - ping
+- plumber: A tool to connect to different messaging systems including RMQ, Kafka, etc.
