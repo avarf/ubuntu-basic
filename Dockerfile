@@ -15,4 +15,9 @@ RUN apt-get update && apt-get install -y nano
 RUN apt-get update && apt-get install -y nmap
 RUN apt-get update && apt-get install -y iputils-ping
 
+# installing plumber for connecting to different messaging systems including RMQ and Kafak
+RUN curl -o plumber https://github.com/batchcorp/plumber/releases/latest/download/plumber-darwin
+RUN chmod +x plumber
+RUN mv plumber /usr/local/bin/plumber
+
 CMD ['/bin/bash /bin/cat']
